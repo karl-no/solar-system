@@ -1,3 +1,38 @@
 .App {
   text-align: center;
 }
+
+body {
+  background-image: url('./images/background.png');
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.mission-card {
+  border: 1px dotted white;
+  margin: 10px;
+  padding: 0 10px;
+}
+
+.planetas {
+  text-align: center;
+  display: flex;
+}
+
+.planetas img {
+  width: 50%;
+  flex-direction: row;
+}
+
+.planetas img:hover {
+  width: 75%;
+}
+
+#mission-card {
+  display: flex;
+  width: 200px;
+}
